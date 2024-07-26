@@ -159,7 +159,7 @@ Classe responsável por implementar a validação de tokens JWT nas requisiçõe
 | `IS_PUBLIC_KEY`   | Chave usada para marcar rotas como públicas               |
 | `jwtConstants`    | Contém constantes relacionadas ao JWT (por exemplo, chave secreta) |
 
-### Class ``OcrService``
+### Class ``OcrService`` (não implementado)
 
 Classe responsável por implementar a lógica para processar os dados resultantes da extração de informações por OCR
 
@@ -167,7 +167,7 @@ Classe responsável por implementar a lógica para processar os dados resultante
 |----------------|------------------------------------------------------------------|------------------|----------|
 | `processImage` | Extrai informações do texto contido nas imagens de fatura.       | `image: any` - A imagem a ser processada | `string`  |
 
-### Class ``OcrController``
+### Class ``OcrController`` (não implementado)
 
 Classe responsável por lidar com requisições associadas ao processamento de imagem via OCR
 

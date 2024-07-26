@@ -1,0 +1,14 @@
+version: '4.32.0'
+services:
+  postgres:
+    image: postgres:16.3
+    restart: always
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=shh_its_secret
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+volumes:
+  postgres:
